@@ -18,7 +18,7 @@ public class Tarefa {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String nomeTarefa;
+    private String titulo;
 
     private String descricao;
 
